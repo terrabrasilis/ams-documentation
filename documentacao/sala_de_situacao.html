@@ -176,8 +176,8 @@ críticas de:</p>
 <li><p>Mineração</p></li>
 <li><p>Focos de calor</p></li>
 </ul>
-<p>A ferramenta integra alertas dos sistemas <strong>DETER</strong> e <strong>QUEIMADAS</strong> do INPE,
-atualizados diariamente, subsidiando o planejamento de ações de fiscalização
+<p>A ferramenta integra alertas dos sistemas DETER, QUEIMADAS do INPE,
+atualizados diariamente, além dos Riscos de Desmatamento e Espalhamento de Fogo (FIP Cerrado) subsidiando o planejamento de ações de fiscalização
 por instituições federais e estaduais, além de apoiar o combate a incêndios
 florestais.</p>
 <p>A Sala de Situação é aberta e gratuita, permitindo que sociedade civil,
@@ -236,17 +236,19 @@ a uma única categoria, viabilizando filtros, percentuais no perfil das unidades
 o sistema atribui uma única categoria com base em regras de prioridade.</p>
 <p>As categorias fundiárias incluem:</p>
 <ul class="simple">
-<li><p>Terras Indígenas (TI)</p></li>
-<li><p>Unidades de Conservação (UC)</p></li>
-<li><p>Área de Proteção Ambiental (APA)</p></li>
+<li><p>Terras Indígenas</p></li>
+<li><p>Unidades de Conservação de Proteção Integral</p></li>
+<li><p>Unidades de Conservação de Uso Sustentável (sem APA)</p></li>
+<li><p>Territórios Quilombola</p></li>
 <li><p>Assentamentos Rurais</p></li>
-<li><p>Florestas Públicas Não Destinadas (FPND)</p></li>
-<li><p>Áreas com CAR</p></li>
-<li><p>Indefinido</p></li>
+<li><p>Área de Proteção Ambiental</p></li>
+<li><p>Propriedades Privadas (Dados do SIGEF)</p></li>
+<li><p>Florestas Públicas Não Destinadas</p></li>
+<li><p>Áreas sem Registro Fundiário</p></li>
 </ul>
 <p>Regra de prioridade em sobreposições<p>
 <p>Quando há sobreposição de categorias, aplica-se a seguinte prioridade:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre style="font-size: 16px;"><span></span><span class="n">TI</span> <span class="o">&gt;</span> <span class="n">UC</span> <span class="p">(</span><span class="n">exceto</span> <span class="n">APA</span><span class="p">)</span> <span class="o">&gt;</span> <span class="n">Assentamentos</span> <span class="o">&gt;</span> <span class="n">APA</span> <span class="o">&gt;</span> <span class="n">CAR</span> <span class="o">&gt;</span> <span class="n">FPND</span> <span class="o">&gt;</span> <span class="n">Indefinido</span></pre></div></div>
+<div class="highlight-default notranslate"><div class="highlight"><pre style="font-size: 16px;"><span></span><span class="n">Terras Indígenas</span> <span class="o">&gt;</span> <span class="n">Unidades de Conservação</span> <span class="o">&gt;</span> <span class="n">Territórios Quilombola</span> <span class="o">&gt;</span> <span class="n">Assentamentos Rurais</span> <span class="o">&gt;</span> <span class="n">Áreas de Proteção Ambiental</span> <span class="o">&gt;</span> <span class="n">Propriedade Privada</span> <span class="o">&gt;</span> <span class="n">Florestas Públicas Não Destinadas</span> <span class="o">&gt;</span> <span class="n">Área sem Registro Fundiário</span></pre></div></div>
 </section>
 <section id="perfil">
 <h3>Perfil<a class="headerlink" href="#perfil" title="Link para este cabeçalho"></a></h3>
@@ -276,10 +278,6 @@ processos de desmatamento e fogo.</p>
 <li><p>Bioma</p></li>
 <li><p>Municípios de interesse (listas pré-definidas ou customizadas)</p></li>
 <li><p>Estado</p></li>
-</ul>
-<p>Exemplo de acesso direto por município (código IBGE):</p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://terrabrasilis.dpi.inpe.br/ams/panel?geocode=1300144">https://terrabrasilis.dpi.inpe.br/ams/panel?geocode=1300144</a></p></li>
 </ul>
 <figure class="align-center" id="id2">
 <img alt="Indicadores espacializados" src="../_images/figura_2.png" />
@@ -430,9 +428,9 @@ mapa.</p>
 grupos de municípios, oferecendo maior granularidade espacial.</p>
 <p>Os indicadores são apresentados em células de:</p>
 <ul class="simple">
-<li><p>5 × 5 km</p></li>
-<li><p>25 × 25 km</p></li>
-<li><p>150 × 150 km</p></li>
+<li><p>5 km × 5 km</p></li>
+<li><p>25 km × 25 km</p></li>
+<li><p>150 km × 150 km</p></li>
 </ul>
 <p>Essa abordagem facilita políticas públicas direcionadas e monitoramento local.</p>
 <p>Formas de acesso incluem:</p>
